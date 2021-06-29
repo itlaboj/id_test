@@ -29,7 +29,8 @@ public class FortuneServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		String test = "a";
+		String test = "b";
+
 
 		//フォワード処理
 		RequestDispatcher rd = request.getRequestDispatcher("/kadai10/fortune.jsp");
